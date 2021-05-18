@@ -4,3 +4,14 @@ public void Clear()
 {
 //Clear operation
 }
+ public object Dequeue()
+{
+//Dequeu operation
+return default(object);
+}
+
+ public void Enqueue()
+{
+//Enqueue
+}
+}
