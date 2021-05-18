@@ -1,0 +1,12 @@
+ public class TaskManager
+{
+public IQueueDataStructure queue;
+public TaskManager(IQueueDataStructure _queueObj)
+{
+this.queue = _queueObj;
+}
+public void SomeTask()
+{
+queue.Dequeue();
+}
+}
