@@ -1,0 +1,6 @@
+public interface IQueueDataStructure
+{
+void Enqueue();
+object Dequeue();
+void Clear();
+}
