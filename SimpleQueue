@@ -1,0 +1,6 @@
+ public class SimpleQueue : IQueueDataStructure
+{
+public void Clear()
+{
+//Clear operation
+}
