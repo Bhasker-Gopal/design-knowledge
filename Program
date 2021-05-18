@@ -1,0 +1,10 @@
+public class Program
+{
+public static void Main(string[] args)
+{
+TaskSchedular taskSchedular = new TaskSchedular(new DoubleEndedQueue());
+taskSchedular.ScheduleTask();
+TaskManager taskManager = new TaskManager(new SimpleQueue());
+taskManager.SomeTask();
+}
+}
