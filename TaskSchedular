@@ -1,0 +1,13 @@
+ public class TaskSchedular
+{
+public IQueueDataStructure queue;
+public TaskSchedular(IQueueDataStructure _queueObj)
+{
+this.queue = _queueObj;
+}
+
+ public void ScheduleTask()
+{
+queue.Enqueue();
+}
+}
