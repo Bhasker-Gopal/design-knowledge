@@ -1,4 +1,4 @@
- public class SimpleQueue : IQueueDataStructure
+ public class SimpleQueue implements IQueueDataStructure
 {
 public void Clear()
 {
